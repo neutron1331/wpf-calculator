@@ -1,0 +1,31 @@
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\bin\Debug\2025.11.26 WpfApp1 calc.exe.config
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\bin\Debug\2025.11.26 WpfApp1 calc.exe
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\bin\Debug\2025.11.26 WpfApp1 calc.pdb
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.csproj.AssemblyReference.cache
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\MainWindow.g.cs
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\App.g.cs
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc_MarkupCompile.cache
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc_MarkupCompile.lref
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\MainWindow.baml
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.g.resources
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\_2025._11._26_WpfApp1_calc.Properties.Resources.resources
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.csproj.GenerateResource.cache
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.csproj.CoreCompileInputs.cache
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.exe
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.pdb
+C:\Users\st025986\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.exe.config
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\bin\Debug\2025.11.26 WpfApp1 calc.exe.config
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\bin\Debug\2025.11.26 WpfApp1 calc.exe
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\bin\Debug\2025.11.26 WpfApp1 calc.pdb
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.csproj.AssemblyReference.cache
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\MainWindow.g.cs
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\App.g.cs
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc_MarkupCompile.cache
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc_MarkupCompile.lref
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\MainWindow.baml
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.g.resources
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\_2025._11._26_WpfApp1_calc.Properties.Resources.resources
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.csproj.GenerateResource.cache
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.csproj.CoreCompileInputs.cache
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.exe
+C:\Users\Doma\OneDrive - Střední škola informatiky, poštovnictví a finančnictví Brno\IT3A\programování\škola\2025.11.26 WpfApp1 calc\2025.11.26 WpfApp1 calc\obj\Debug\2025.11.26 WpfApp1 calc.pdb
