@@ -60,7 +60,8 @@ namespace _2025._11._26_WpfApp1_calc
         {
             bool can_continue = true; //kontrola pro pokračování v programu //check if the program can continue
 
-            Label_debug_can_continue.Content = "can_continue = true";
+            Console.WriteLine("____________________");
+            Label_debug_can_continue.Content = "can continue = true";
             Label_debug_error.Content = "error type =";
 
             int depth = 0, depth_max = 0, text_lenght = 0;
@@ -72,9 +73,11 @@ namespace _2025._11._26_WpfApp1_calc
             else
             {
                 can_continue = false;
-                Label_debug_can_continue.Content = "can_continue = false";
+                Label_debug_can_continue.Content = "can continue = false";
+                Console.WriteLine("can continue = false");
                 TextBlock_input_output.Text = "error 0";
                 Label_debug_error.Content = "error type = empty input";
+                Console.WriteLine("error type = empty input");
             }
 
             if (can_continue)
@@ -95,29 +98,94 @@ namespace _2025._11._26_WpfApp1_calc
                     if (depth > depth_max)
                         depth_max++;
 
-                    Label_debug_depth.Content = "max_depth = " + depth_max.ToString();
-
+                    Label_debug_depth.Content = "max_depth = " + depth_max;
+                    
                 }
+                Console.WriteLine("max_depth = " + depth_max);
+
                 if (depth != 0) //vyhodí error pokud text neobsahuje správný počet () //throws an error if theres an incorrect amount of ()
                 {
                     TextBlock_input_output.Text = "error 1";
                     Label_debug_error.Content = "error type = incorrect amount of ( )";
+                    Console.WriteLine("error type = incorrect amount of ( )");
                     can_continue = false;
-                    Label_debug_can_continue.Content = "can_continue = false";
+                    Label_debug_can_continue.Content = "can continue = false";
+                    Console.WriteLine("can continue = false");
                 }
 
                 /*
                  move to the deepest part of calculation
                  */
 
-                int num_start = 0, num_end = 0;
+                int num_amountof = 0;                
+
+                for (int i = 0; i < text_lenght; i++) //zjistí počet čísel v textu //gets the amount of numbers in text [49+5 -> 2]
+                {
+                    if (Char.IsNumber(text_split[i]))
+                    {
+                        if (i == 0)
+                            num_amountof++;
+                        else if (!Char.IsNumber(text_split[i - 1]))
+                            num_amountof++;
+                        //num_start = (int)char.GetNumericValue(text_split[i]);
+                    }
+                }
+
+                string[] number_str = new string[num_amountof]; //vytvoření proměnné pro jednotlivá čísla jako string stringu
+                int num_start = 0,num_index = 0;
+
+                for (int i = 0; i < text_lenght; i++) 
+                {
+                    if (Char.IsNumber(text_split[i])) //rozdělení jednotlivých čísel z textu
+                    {
+                        number_str[num_index] = number_str[num_index] + text_split[i];
+                        if (i == 0)
+                            num_start = i;
+                        else if (!Char.IsNumber(text_split[i - 1]))
+                            num_start = i;
+                        if (i == text_lenght-1){}
+                        else if (!Char.IsNumber(text_split[i + 1]))
+                            num_index++;
+                    }
+                }
+                string debug_numbers = "";
+                int[] number_value = new int[num_amountof];
+                for (int i = 0; i < num_amountof; i++)  //přeměnění stringu čísel na int čísel
+                {
+                    number_value[i] = int.Parse(number_str[i]);
+                    debug_numbers = debug_numbers + " " + number_value[i];
+                }              
+
+                Label_debug_num.Content = "amount = " + num_amountof + "; num =" + debug_numbers;
+                Console.WriteLine("amount = " + num_amountof + "; num =" + debug_numbers);
+
+                int operand_amountof = 0;
+                string debug_operands = "";
 
                 for (int i = 0; i < text_lenght; i++)
                 {
-                    if (Char.IsNumber(text_split[i]) && i != 0)
-                        if (!Char.IsNumber(text_split[i - 1]))
-                            num_start = (int)char.GetNumericValue(text_split[i]);
+                    if (!Char.IsNumber(text_split[i]))
+                    {
+                        operand_amountof++;
+                    }
                 }
+
+                char[] operands = new char[operand_amountof];
+                
+                operand_amountof = 0;
+
+                for (int i = 0; i < text_lenght; i++)
+                {
+                    if (!Char.IsNumber(text_split[i]))
+                    {
+                        operands[operand_amountof] = text_split[i];
+                        debug_operands = debug_operands + text_split[i] + " ";
+                        operand_amountof++;
+                    }
+                }
+
+                Label_debug_operands.Content = "amount = " + operand_amountof + " operands = " + debug_operands;
+                Console.WriteLine("amount = " + operand_amountof + " operands = " + debug_operands);
             }
         }
         
