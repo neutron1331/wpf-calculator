@@ -22,8 +22,8 @@ namespace _2025._11._26_WpfApp1_calc
     public partial class MainWindow : Window
     {
         public string text;
-        
-        
+
+
         public MainWindow()
         {
             InitializeComponent();
@@ -99,7 +99,7 @@ namespace _2025._11._26_WpfApp1_calc
                         depth_max++;
 
                     Label_debug_depth.Content = "max_depth = " + depth_max;
-                    
+
                 }
                 Console.WriteLine("max_depth = " + depth_max);
 
@@ -113,11 +113,7 @@ namespace _2025._11._26_WpfApp1_calc
                     Console.WriteLine("can continue = false");
                 }
 
-                /*
-                 move to the deepest part of calculation
-                 */
-
-                int num_amountof = 0;                
+                int num_amountof = 0;
 
                 for (int i = 0; i < text_lenght; i++) //zjistí počet čísel v textu //gets the amount of numbers in text [49+5 -> 2]
                 {
@@ -132,9 +128,9 @@ namespace _2025._11._26_WpfApp1_calc
                 }
 
                 string[] number_str = new string[num_amountof]; //vytvoření proměnné pro jednotlivá čísla jako string stringu
-                int num_start = 0,num_index = 0;
+                int num_start = 0, num_index = 0;
 
-                for (int i = 0; i < text_lenght; i++) 
+                for (int i = 0; i < text_lenght; i++)
                 {
                     if (Char.IsNumber(text_split[i])) //rozdělení jednotlivých čísel z textu
                     {
@@ -143,7 +139,7 @@ namespace _2025._11._26_WpfApp1_calc
                             num_start = i;
                         else if (!Char.IsNumber(text_split[i - 1]))
                             num_start = i;
-                        if (i == text_lenght-1){}
+                        if (i == text_lenght - 1) { }
                         else if (!Char.IsNumber(text_split[i + 1]))
                             num_index++;
                     }
@@ -154,15 +150,15 @@ namespace _2025._11._26_WpfApp1_calc
                 {
                     number_value[i] = int.Parse(number_str[i]);
                     debug_numbers = debug_numbers + " " + number_value[i];
-                }              
+                }
 
-                Label_debug_num.Content = "amount = " + num_amountof + "; num =" + debug_numbers;
+                Label_debug_num.Content = "amount = " + num_amountof + "; num =" + debug_numbers; //debug pro jednotlivá čísla
                 Console.WriteLine("amount = " + num_amountof + "; num =" + debug_numbers);
 
                 int operand_amountof = 0;
                 string debug_operands = "";
 
-                for (int i = 0; i < text_lenght; i++)
+                for (int i = 0; i < text_lenght; i++) //rozdělení jednotlivých operátorů v textu
                 {
                     if (!Char.IsNumber(text_split[i]))
                     {
@@ -171,7 +167,7 @@ namespace _2025._11._26_WpfApp1_calc
                 }
 
                 char[] operands = new char[operand_amountof];
-                
+
                 operand_amountof = 0;
 
                 for (int i = 0; i < text_lenght; i++)
@@ -186,11 +182,41 @@ namespace _2025._11._26_WpfApp1_calc
 
                 Label_debug_operands.Content = "amount = " + operand_amountof + " operands = " + debug_operands;
                 Console.WriteLine("amount = " + operand_amountof + " operands = " + debug_operands);
+
+
+                for (int i = 0; i < text_lenght; i++)   //zkontroluje jestli nejsou dva operanty hned vedle sebe
+                {
+                    if (!Char.IsNumber(text_split[i]) && text_split[i] != ')' && text_split[i] != '(')
+                    {
+                        if (i == 0) { }
+                        else if (!Char.IsNumber(text_split[i - 1]) && text_split[i - 1] != ')')
+                        {
+                            can_continue = false;
+                            Label_debug_can_continue.Content = "can continue = false";
+                            Label_debug_error.Content = "error type = two or more operants after eachother";
+                            Console.WriteLine("error type = two or more operants after eachother");
+                            TextBlock_input_output.Text = ("error 2");
+                        }
+                        if (i == text_lenght - 1) { }
+                        else if (!Char.IsNumber(text_split[i + 1]) && text_split[i + 1] != '(')
+                        {
+                            can_continue = false;
+                            Label_debug_can_continue.Content = "can continue = false";
+                            Label_debug_error.Content = "error type = two or more operants after eachother";
+                            Console.WriteLine("error type = two or more operants after eachother");
+                            TextBlock_input_output.Text = ("error 2");
+                        }
+                    }
+                }
+
+                /*
+                 move to the deepest part of calculation
+                 */
             }
         }
-        
 
-        
+
+
 
         //vstup z kalkulačky //inputs from calc
 
@@ -291,7 +317,7 @@ namespace _2025._11._26_WpfApp1_calc
 
         private void Button_zpet_Click(object sender, RoutedEventArgs e)
         {
-            Zobrazení('z');            
+            Zobrazení('z');
         }
 
         private void Button_del_Click(object sender, RoutedEventArgs e)

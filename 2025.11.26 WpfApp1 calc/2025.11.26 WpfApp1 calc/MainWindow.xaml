@@ -33,7 +33,7 @@
         <Button x:Name="Button_rovnase" Content="=" HorizontalAlignment="Left" Margin="50,286,0,0" VerticalAlignment="Top" Height="40" Width="140" Click="Button_rovnase_Click"/>
         <Button x:Name="Button_zpet" Content="zpět" HorizontalAlignment="Left" Margin="200,286,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="Button_zpet_Click"/>
         <Button x:Name="Button_del" Content="del" HorizontalAlignment="Left" Margin="250,286,0,0" VerticalAlignment="Top" Height="40" Width="40" Click="Button_del_Click"/>
-        
+
         <Grid x:Name="debug" Visibility="Visible">
             <Label x:Name="Label_debug_depth" Content="max_depth = " HorizontalAlignment="Left" Margin="10,330,0,0" Height="30" VerticalAlignment="Top"/>
             <Label x:Name="Label_debug_error" Content="error type = " HorizontalAlignment="Left" Margin="10,340,0,0" Height="30" VerticalAlignment="Top"/>
